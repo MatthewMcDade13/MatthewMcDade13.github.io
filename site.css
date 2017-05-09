@@ -1,0 +1,151 @@
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 2px 2px 5px #333;
+    background-color: #ebebeb;
+    
+}
+
+main
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    width: 55%;
+    box-shadow: 0px 0px 25px 5px;
+}
+
+.navbar-brand
+{
+    padding-left: 50px;
+    margin-top: 2px;
+}
+
+.nav-item
+{
+    padding-right: 50px;
+}
+
+
+#about
+{
+    background-color: #8b9dc3;
+    font-size: 1.0vw;
+    color: white;
+}
+
+#projects
+{
+    
+    text-align: center;
+    font-size: 2vw !important;
+    padding-bottom: 50px;
+}
+
+#contactMe
+{
+    background-color: #8b9dc3;
+    font-size: 1.0vw;
+    color: white;
+    height: 375px;
+    text-align: center;
+}
+
+#contactMe a
+{
+    color: white;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#contactMe h2
+{
+    font-size: 3vw;
+}
+
+address
+{
+    font-size: 1.5vw;
+}
+
+#contactMe a.btn
+{
+    font-size: 2.5vw;
+}
+
+#contactMe a.btn:hover
+{
+    background-color: #0077b5;
+}
+
+#contactMe a:hover
+{
+    text-decoration: none !important;
+    color: #0077b5;
+    transition: 0.3s;
+}
+
+#contactMe h2
+{
+    padding-top: 5%;
+    margin-bottom: 5%;
+}
+
+#projects h1
+{
+   font-size: 2vw;
+}
+
+.project h4
+{
+    font-size: 1vw;
+}
+
+#description
+{
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+#selfPic
+{
+    max-height: 350px;
+    border-radius: 50%;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    margin-top: 10%;
+    margin-left: -15px;
+}
+
+.project
+{
+    margin-top: 5%;
+    border-style: outset;
+    background-color: white;
+    box-shadow: 5px 5px 15px;
+    height: 98%;
+    width: 98%;
+}
+
+
+
+.fa-linkedin
+{
+    color: #0077b5;
+}
+
+.fa-github
+{
+    color: #6e5494
+}
+
+.fa-free-code-camp
+{
+    color: #006400;
+}
+
+.fa-codepen
+{
+    color: black;
+}
