@@ -47,8 +47,8 @@ main
     background-color: #8b9dc3;
     font-size: 1.0vw;
     color: white;
-    height: 375px;
     text-align: center;
+    padding-bottom: 50px;
 }
 
 #contactMe a
