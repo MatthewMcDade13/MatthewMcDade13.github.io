@@ -3,7 +3,6 @@ body
     font-family: 'Montserrat', sans-serif;
     text-shadow: 2px 2px 5px #333;
     background-color: #ebebeb;
-    
 }
 
 main
@@ -11,7 +10,7 @@ main
     margin-left: auto;
     margin-right: auto;
     margin-top: 2%;
-    width: 55%;
+    width: 1000px;
     box-shadow: 0px 0px 25px 5px;
 }
 
@@ -30,7 +29,7 @@ main
 #about
 {
     background-color: #8b9dc3;
-    font-size: 1.0vw;
+    font-size: 18px;
     color: white;
 }
 
@@ -38,14 +37,19 @@ main
 {
     
     text-align: center;
-    font-size: 2vw !important;
+    font-size: 20px !important;
     padding-bottom: 50px;
+}
+
+#projects .project
+{
+    margin-top: 25px;
 }
 
 #contactMe
 {
     background-color: #8b9dc3;
-    font-size: 1.0vw;
+    font-size: 15px;
     color: white;
     text-align: center;
     padding-bottom: 50px;
@@ -60,19 +64,20 @@ main
 
 #contactMe h2
 {
-    font-size: 2.3vw;
     margin-right: 15px;
     margin-left: 15px;
 }
 
 address
 {
-    font-size: 1.5vw;
+    font-size: 20px;
 }
 
 #contactMe a.btn
 {
-    font-size: 2.5vw;
+    font-size: 20px;
+    max-height: 50px;
+    max-width: 50px;
 }
 
 #contactMe a.btn:hover
@@ -93,20 +98,16 @@ address
     margin-bottom: 5%;
 }
 
-#projects h1
+#projects img
 {
-   font-size: 2vw;
-}
-
-.project h4
-{
-    font-size: 1vw;
+    width: 100%;
+    height: 250px;
 }
 
 #description
 {
-    padding-left: 5%;
-    padding-top: 5%;
+    padding-left: 10%;
+    padding-top: 10%;
 }
 
 #selfPic
@@ -116,7 +117,7 @@ address
     border-color: black;
     border-width: 5px;
     border-style: solid;
-    margin-top: 10%;
+    margin-top: 15%;
     margin-left: -15px;
 }
 
@@ -129,7 +130,6 @@ address
     height: 98%;
     width: 98%;
 }
-
 
 
 .fa-linkedin
